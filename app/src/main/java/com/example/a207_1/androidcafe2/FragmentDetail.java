@@ -25,7 +25,7 @@ public class FragmentDetail extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.fragment_detail,null);
-        imgItem = (ImageView) view.findViewById(R.id.img_Item);
+        imgItem = (ImageView) view.findViewById(R.id.img_item);
         dtvName = (TextView) view.findViewById(R.id.tvName);
         dtvDescription = (TextView) view.findViewById(R.id.tvDescription);
         return view;
